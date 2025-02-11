@@ -31,4 +31,4 @@ jobs:
             --data '{"text":"Deployment was successful :tada:"}' \
             $SLACK_WEBHOOK_URL
         env:
-          SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
