@@ -1,0 +1,12 @@
+Task Name,Assignee,Due Date,Priority,Status,Section,Description,Dependencies
+Project Kickoff Meeting,Product Manager,2025-03-01,High,Completed,Planning,Initial project kickoff with stakeholders,
+Define Project Scope,Product Manager,2025-03-02,High,Completed,Planning,Finalize product requirements and goals,Project Kickoff Meeting
+Set Up Development Environment,Lead Developer,2025-03-05,High,In Progress,Development,"Setup GitHub, CI/CD pipeline, and dev tools",
+Wireframe & UI Design,UI/UX Designer,2025-03-07,Medium,In Progress,Design,Create initial wireframes and design mockups,Define Project Scope
+Develop Authentication System,Backend Developer,2025-03-10,High,Pending,Development,"Implement user login, signup, and authentication",Set Up Development Environment
+Frontend Integration,Frontend Developer,2025-03-15,High,Pending,Development,Connect frontend UI with backend APIs,Develop Authentication System
+Implement Payment Gateway,Backend Developer,2025-03-20,Medium,Pending,Development,Integrate Stripe for payment processing,Frontend Integration
+Conduct Unit Testing,QA Engineer,2025-03-22,Medium,Pending,Testing,Write and execute unit test cases,Develop Authentication System
+Beta Testing with Users,QA Engineer,2025-03-25,High,Pending,Testing,Collect feedback from beta testers,Conduct Unit Testing
+App Store Submission,Marketing Manager,2025-03-28,High,Pending,Launch,"Prepare app description, screenshots, and submit",Beta Testing with Users
+Post-Launch Monitoring,Product Manager,2025-04-01,Medium,Pending,Maintenance,Monitor app performance and user feedback,App Store Submission
